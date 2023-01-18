@@ -1,7 +1,7 @@
 package com.codecool.farm.animal;
 
 public abstract class Animal {
-    private  int size;
+    private int size;
 
     public Animal() {
         this.size = 0;
@@ -9,6 +9,10 @@ public abstract class Animal {
 
     public int getSize() {
         return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
     }
 
     public abstract void feed();
